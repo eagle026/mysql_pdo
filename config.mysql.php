@@ -1,0 +1,12 @@
+<?php
+$mysql_array=array(
+   'type'=>'mysql',
+   'host'=>'127.0.0.1',
+   'port'=>'3306',
+   'dbname'=>'eqmk',
+   'charset'=>'utf8',
+   'user'=>'root',
+   'pass'=>'123456',
+    'tpl'=>'eqmk_'
+);
+$tbl=$mysql_array['tpl'];
